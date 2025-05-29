@@ -12,7 +12,7 @@ def correr_todas():
     metricas = [
         MetricaCalorHumedo("config_calor_humedo.yaml"),
         MetricaRuidoCorregido("config_ruido_corregido.yaml"),
-        MetricaAlertaAmbiental("config_alerta_humedo.yaml")
+        MetricaAlertaAmbiental("config_alerta_ambiental.yaml")
     ]
 
     for metrica in metricas:
