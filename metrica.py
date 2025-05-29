@@ -81,7 +81,7 @@ class Metrica:
                 writer.writerow(fila)
         print(f"Guardado en {self.csv_salida}")
 
-    
+
 
 
 class MetricaCalorHumedo(Metrica):
