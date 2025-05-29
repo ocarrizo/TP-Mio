@@ -1,0 +1,6 @@
+entrada:
+  archivo_datos: "dataset_nro009_n10000_sin_missing.csv"
+
+salida:
+  puntos_minuto: 12
+  nombre_archivo: "resultados/ruido_corregido.csv"
