@@ -1,5 +1,6 @@
 import csv
 import yaml
+import os
 
 class Metrica:
     def __init__(self, id_metrica, archivo_config):
@@ -79,6 +80,8 @@ class Metrica:
             for fila in self.mediciones:
                 writer.writerow(fila)
         print(f"Guardado en {self.csv_salida}")
+
+    
 
 
 class MetricaCalorHumedo(Metrica):
